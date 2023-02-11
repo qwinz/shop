@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "/imgs/img1.webp"
+    },
+    {
+        "id": "2",
+        "imgUrl": "/imgs/img2.webp"
+    },
+    {
+        "id": "3",
+        "imgUrl": "/imgs/img3.webp"
+    },
+    {
+        "id": "4",
+        "imgUrl": "/imgs/img4.webp"
+    }
+]

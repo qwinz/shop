@@ -1,0 +1,128 @@
+[
+    {
+        "floorId": "1",
+        "floorTitle": "手机",
+        "floorBigImgUrl": "/imgs/floorImg1.webp",
+        "floorItems": [
+            {
+                "fItemId": "1",
+                "fItemTitle": "Redmi 12C",
+                "fItemPrice": "699元起",
+                "fItemDesc": "高性能长续航，5000万像素超清双摄",
+                "fItemImgUrl": "/imgs/floorImg2.webp"
+            },
+            {
+                "fItemId": "2",
+                "fItemTitle": "Xiaomi 13 限量定制色",
+                "fItemPrice": "4999元起",
+                "fItemDesc": "全新第二代晓龙8 | 徕卡专业光学镜头双摄",
+                "fItemImgUrl": "./imgs/floorImg3.webp"
+            },
+            {
+                "fItemId": "3",
+                "fItemTitle": "Redmi K60",
+                "fItemPrice": "2499元起",
+                "fItemDesc": "晓龙8+ | 2K 高光直屏 | 5500mAh+67W快充",
+                "fItemImgUrl": "./imgs/floorImg4.webp"
+            },
+            {
+                "fItemId": "4",
+                "fItemTitle": "Xiaomi 13 Pro",
+                "fItemPrice": "4999元起",
+                "fItemDesc": "全新第二代晓龙8 | 徕卡专业光学镜头双摄",
+                "fItemImgUrl": "./imgs/floorImg5.webp"
+            },
+            {
+                "fItemId": "5",
+                "fItemTitle": "Redmi K60 Pro",
+                "fItemPrice": "3299元起",
+                "fItemDesc": "晓龙8+ | 2K 高光直屏 | 5500mAh+67W快充",
+                "fItemImgUrl": "./imgs/floorImg6.webp"
+            },
+            {
+                "fItemId": "6",
+                "fItemTitle": "Xiaomi 13",
+                "fItemPrice": "3999元起",
+                "fItemDesc": "第二代晓龙，狂暴引擎",
+                "fItemImgUrl": "./imgs/floorImg7.webp"
+            },
+            {
+                "fItemId": "7",
+                "fItemTitle": "Redmi Note 12 Pro 极速版",
+                "fItemPrice": "1689元起",
+                "fItemDesc": "高通骁龙778G，OLED柔性直屏+一亿像素超清拍摄",
+                "fItemImgUrl": "./imgs/floorImg8.webp"
+            },
+            {
+                "fItemId": "8",
+                "fItemTitle": "Redmi Note 12 5G",
+                "fItemPrice": "1199元起",
+                "fItemDesc": "第二代晓龙，狂暴引擎",
+                "fItemImgUrl": "./imgs/floorImg9.webp"
+            }
+        ]
+    },
+    {
+        "floorId": "2",
+        "floorTitle": "耳机",
+        "floorBigImgUrl": "/imgs/floorImg1.webp",
+        "floorItems": [
+            {
+                "fItemId": "1",
+                "fItemTitle": "Redmi 12C",
+                "fItemPrice": "699元起",
+                "fItemDesc": "高性能长续航，5000万像素超清双摄",
+                "fItemImgUrl": "/imgs/floorImg2.webp"
+            },
+            {
+                "fItemId": "2",
+                "fItemTitle": "Xiaomi 13 限量定制色",
+                "fItemPrice": "4999元起",
+                "fItemDesc": "全新第二代晓龙8 | 徕卡专业光学镜头双摄",
+                "fItemImgUrl": "./imgs/floorImg3.webp"
+            },
+            {
+                "fItemId": "3",
+                "fItemTitle": "Redmi K60",
+                "fItemPrice": "2499元起",
+                "fItemDesc": "晓龙8+ | 2K 高光直屏 | 5500mAh+67W快充",
+                "fItemImgUrl": "./imgs/floorImg4.webp"
+            },
+            {
+                "fItemId": "4",
+                "fItemTitle": "Xiaomi 13 Pro",
+                "fItemPrice": "4999元起",
+                "fItemDesc": "全新第二代晓龙8 | 徕卡专业光学镜头双摄",
+                "fItemImgUrl": "./imgs/floorImg5.webp"
+            },
+            {
+                "fItemId": "5",
+                "fItemTitle": "Redmi K60 Pro",
+                "fItemPrice": "3299元起",
+                "fItemDesc": "晓龙8+ | 2K 高光直屏 | 5500mAh+67W快充",
+                "fItemImgUrl": "./imgs/floorImg6.webp"
+            },
+            {
+                "fItemId": "6",
+                "fItemTitle": "Xiaomi 13",
+                "fItemPrice": "3999元起",
+                "fItemDesc": "第二代晓龙，狂暴引擎",
+                "fItemImgUrl": "./imgs/floorImg7.webp"
+            },
+            {
+                "fItemId": "7",
+                "fItemTitle": "Redmi Note 12 Pro 极速版",
+                "fItemPrice": "1689元起",
+                "fItemDesc": "高通骁龙778G，OLED柔性直屏+一亿像素超清拍摄",
+                "fItemImgUrl": "./imgs/floorImg8.webp"
+            },
+            {
+                "fItemId": "8",
+                "fItemTitle": "Redmi Note 12 5G",
+                "fItemPrice": "1199元起",
+                "fItemDesc": "第二代晓龙，狂暴引擎",
+                "fItemImgUrl": "./imgs/floorImg9.webp"
+            }
+        ]
+    }
+]
