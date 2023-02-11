@@ -1,4 +1,4 @@
-# shop
+# shop 仿小米商城
 
 ## Project setup
 ```

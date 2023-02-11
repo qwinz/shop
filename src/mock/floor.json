@@ -65,14 +65,14 @@
     {
         "floorId": "2",
         "floorTitle": "耳机",
-        "floorBigImgUrl": "/imgs/floorImg1.webp",
+        "floorBigImgUrl": "./imgs/floorImg1.webp",
         "floorItems": [
             {
                 "fItemId": "1",
                 "fItemTitle": "Redmi 12C",
                 "fItemPrice": "699元起",
                 "fItemDesc": "高性能长续航，5000万像素超清双摄",
-                "fItemImgUrl": "/imgs/floorImg2.webp"
+                "fItemImgUrl": "./imgs/floorImg2.webp"
             },
             {
                 "fItemId": "2",

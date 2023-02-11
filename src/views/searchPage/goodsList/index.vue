@@ -19,25 +19,23 @@
                 <li>仅看有货</li>
             </ul>
         </div>
-        <router-link to="/detail">
-            <div class="goodsItems clear">
-                <div class="goodsItem" v-for="(goods) in goodsList" :key="goods.id">
-                    <img :src="goods.defaultImg" alt="" class="goodsItemImg">
-                    <p class="goodsItemTitle">{{ goods.title }}</p>
-                    <p class="goodsItemPrice">{{ goods.price }}</p>
-                    <ul class="goodsItemType">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <!-- 分期/加价购 -->
-                    <div class="flags">
-                        <a href="javascript:">分期</a>
-                        <a href="javascript:">加价购</a>
-                    </div>
+        <div class="goodsItems clear">
+            <div class="goodsItem" @click="goDetail" v-for="(goods) in goodsList" :key="goods.id">
+                <img :src="goods.defaultImg" alt="" class="goodsItemImg">
+                <p class="goodsItemTitle">{{ goods.title }}</p>
+                <p class="goodsItemPrice">{{ goods.price }}</p>
+                <ul class="goodsItemType">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <!-- 分期/加价购 -->
+                <div class="flags">
+                    <a href="javascript:">分期</a>
+                    <a href="javascript:">加价购</a>
                 </div>
             </div>
-        </router-link>
+        </div>
     </div>
 </template>
 
@@ -63,6 +61,10 @@ export default {
             }
             this.showArrowRise = !this.showArrowRise
             this.sortByPriceEvent(this.showArrowRise)
+        },
+        goDetail() {
+            this.$router.push({ path: '/detail', query: this.$route.query })
+
         }
     },
     watch: {
@@ -107,6 +109,8 @@ export default {
             transition-duration: var(--baseDuration);
 
             &:hover {
+                cursor: pointer;
+                color: #ff6a00;
                 box-shadow: 0 3px 10px 1px #b4b4b4;
             }
 

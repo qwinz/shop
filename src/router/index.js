@@ -32,12 +32,12 @@ const router = new VueRouter({
         {
             path: '/login',
             component: Login,
-            meta: { footerShow: false }
+            meta: { footerShow: false, hiddenHeader: true }
         },
         {
             path: '/register',
             component: Register,
-            meta: { footerShow: false }
+            meta: { footerShow: false, hiddenHeader: true }
         },
         {
             name: 'search',
