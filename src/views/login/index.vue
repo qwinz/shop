@@ -6,23 +6,26 @@
         <div class="slide_right">
             <loginHeader></loginHeader>
             <loginForm></loginForm>
+            <li @click="djangoReq">click me</li>
         </div>
     </div>
 </template>
 
 <script>
-import loginForm from "./loginForm.vue";
-import loginHeader from "./loginHeader.vue";
-import loginBgc from "@/components/common/loginBgc.vue";
+import loginForm from "./loginForm.vue"
+import loginHeader from "./loginHeader.vue"
+import loginBgc from "@/components/common/loginBgc.vue"
+import { mapActions } from 'vuex'
 export default {
     data() {
         return {
             sldeShow: true,
             bgwidth: "375px",
-        };
+        }
     },
     components: { loginForm, loginHeader, loginBgc },
     methods: {
+        ...mapActions('loginVuex', ['djangoReq']),
         resizeBg() {
             let width = document.documentElement.clientWidth
             if (width <= 1000) {
